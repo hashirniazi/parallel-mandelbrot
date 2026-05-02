@@ -62,6 +62,6 @@ int main() {
     double speedup = diff_s.count() / diff_p.count();
     std::cout << "Total Speedup: " << speedup << "x" << std::endl;
 
-    save_ppm(image, "output/fractal.ppm");
+    save_ppm(image, "fractal.ppm");
     return 0;
 }
